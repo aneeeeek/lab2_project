@@ -1,5 +1,5 @@
 package brokenrobotgame.model.navigation;
-
+// new comment
 import java.util.HashMap;
 
 /*
