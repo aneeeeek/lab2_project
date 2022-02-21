@@ -67,7 +67,7 @@ public class Direction
     public boolean equals(Object other)
     {
         if(other instanceof Direction)
-        {
+        { //asdsadasdasdasd
             // ���� ����������, ����� �������� ��������������
             Direction otherDirect = (Direction)other;
             // ���������� ��������� ��������� �����

@@ -34,7 +34,7 @@ public class GameField {
         return CellPosition.verticalRange().length();
     }
 	
-    // ---------------------------- Робот ----------------------------
+    // ---------------------------- Робот ---------------------
 
     //!!!
     Robot _robot;
@@ -65,7 +65,7 @@ public class GameField {
     }
 
 	
-    // ---------------------------- Стены ----------------------------
+    // ---------------------------- Стены ------------------------
 
     private ArrayList<WallPiece> _wallPool = new ArrayList();   // стены
 

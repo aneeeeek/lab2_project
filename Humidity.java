@@ -19,7 +19,7 @@ public class Humidity extends AbstractCharacteristic
 
     @Override
     public Color drawColor() {
-        return new Color(51,86,255,80);
+        return new Color(59,86,255,89);
     }
 
     @Override
@@ -28,7 +28,7 @@ public class Humidity extends AbstractCharacteristic
     }
 
     @Override
-    public void update(EventObject event)
+    public void update(EventObject event, EvenObject wwwwwww)
     {
         if(value()>0)
             setValue(value()-1);

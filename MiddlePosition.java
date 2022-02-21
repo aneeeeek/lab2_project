@@ -76,7 +76,7 @@ public class MiddlePosition
             return  new MiddlePosition(_cellPosition, _direction.opposite());
         }
 
-        // TODO породить исключение
+        // TODO породить исключение или не порождать его:)
         throw new RuntimeException();
         //return null;
     }
@@ -127,7 +127,7 @@ public class MiddlePosition
         
         return false;
     }
-	
+// commit 2 zadaniya	
 //    @Override
 //    public int hashCode(){
 //        // TODO

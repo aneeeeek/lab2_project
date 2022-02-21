@@ -18,7 +18,7 @@ public class Temperature extends AbstractCharacteristic
 
     @Override
     public Color drawColor() {
-        return new Color(255,255,255,70);
+        return new Color(0,0,0,70);
     }
 
     @Override
