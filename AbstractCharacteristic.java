@@ -31,7 +31,7 @@ abstract public class AbstractCharacteristic implements CellCharacteristic
     {
         boolean success = false;
 
-        if(pos == null)                         // батарейка вне поля
+        if(pos == null)                         // батарейка вне поля hello
         {
             position = null;
             success = true;
