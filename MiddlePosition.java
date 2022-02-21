@@ -127,7 +127,7 @@ public class MiddlePosition
         
         return false;
     }
-	
+// commit 2 zadaniya	
 //    @Override
 //    public int hashCode(){
 //        // TODO
