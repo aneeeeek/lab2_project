@@ -59,6 +59,11 @@ public class Door {
     public void open(){
         _isOpen = true;
     }
+	
+	public void evenMoreUseless()
+	{
+		
+	}
     
     public void close(){
         _isOpen = false;
