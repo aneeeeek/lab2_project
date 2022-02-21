@@ -29,8 +29,8 @@ public class Temperature extends AbstractCharacteristic
     @Override
     public void update(EventObject event)
     {
-        if(value()<100)
-            setValue(value()+2);
+        if(value()<200)
+            setValue(value()*1.1);
     }
 
     public class TemperatureIncreases implements RobotActionListener
