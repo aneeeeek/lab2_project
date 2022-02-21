@@ -5,7 +5,7 @@ import brokenrobotgame.model.characteristics.AbstractCharacteristic;
 import brokenrobotgame.model.events.RobotActionEvent;
 import brokenrobotgame.model.events.RobotActionListener;
 import brokenrobotgame.model.navigation.CellPosition;
-
+//vanda 1 commit main
 import java.awt.*;
 import java.util.EventObject;
 

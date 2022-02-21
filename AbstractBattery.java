@@ -20,7 +20,7 @@ abstract public class AbstractBattery
     private GameField _field;
 
     // ----------------------- Емкость и заряд батареи -------------------------
-    private int _chargeCapacity = 100;                  // емкость в условных единицах
+    private int _chargeCapacity = 25;                  // емкость в условных единицах
     private int _amountОfСharge = _chargeCapacity;      // заряд в условных единицах
 
     public AbstractBattery (GameField field, int capacity, int amount)
@@ -45,6 +45,7 @@ abstract public class AbstractBattery
         return _chargeCapacity;
     }
 
+	// Комментарий
     public int amountОfСharge()
     {
         // TODO исключение, если батарея уничтожена
