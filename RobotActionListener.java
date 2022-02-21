@@ -6,4 +6,5 @@ import java.util.EventListener;
 public interface RobotActionListener extends EventListener {
     void robotMadeMove(RobotActionEvent e);
 	void destroyedAllHumans(RobotActionEvent e);
+	void robotMissedMove(RobotActionEvent e);
 }
