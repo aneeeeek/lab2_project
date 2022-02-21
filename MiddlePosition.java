@@ -99,6 +99,7 @@ public class MiddlePosition
         // Ќеобходимо получить другую €чейку
         if(_direction.equals(direct) && _cellPosition.hasNext(direct))
         {
+//получаем другую €чейку
             return _cellPosition.next(direct);
         }
 
