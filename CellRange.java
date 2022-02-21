@@ -15,6 +15,7 @@ public class CellRange
         if(max < min)   max = min;
         
         _min = min;
+		_max = min;
         _max = max;
     }
     
@@ -29,6 +30,7 @@ public class CellRange
 
     public int length(){
         return _max - _min + 1;
+		_min++;
     }
     
     public static boolean isValidRange(int min, int max) {

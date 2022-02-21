@@ -33,7 +33,7 @@ abstract public class AbstractBattery
         _chargeCapacity = capacity;
         _amountОfСharge = amount;
     }
-
+    //Уменьшение заряда батареи
     public int chargeCapacity()
     {
         // TODO исключение, если батарея уничтожена
@@ -80,7 +80,7 @@ abstract public class AbstractBattery
     // ----------------------- Позиция батарейки -------------------------
 
     CellPosition _position;                             // позиция
-
+	//Получить позицию батарейки
     public CellPosition position()
     {
         // TODO исключение, если батарея уничтожена
