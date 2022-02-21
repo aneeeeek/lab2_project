@@ -16,7 +16,7 @@ public class Smoke extends AbstractCharacteristic
 
     @Override
     public Color drawColor() {
-        return new Color(176,176,176,80);
+        return new Color(176,176,176,8);
     }
 
     @Override
