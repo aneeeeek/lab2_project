@@ -13,4 +13,9 @@ public class Battery extends AbstractBattery, Unit, Cell
 		capacity++;
 		amount++;
     }
+	
+	public capacityUpdate()
+	{
+		capacity++;
+	}
 }
