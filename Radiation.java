@@ -1,5 +1,5 @@
 package brokenrobotgame.model.characteristics;
-
+//First commit to vanda branch
 import brokenrobotgame.model.GameField;
 import brokenrobotgame.model.characteristics.AbstractCharacteristic;
 import brokenrobotgame.model.events.RobotActionEvent;
@@ -26,7 +26,7 @@ public class Radiation extends AbstractCharacteristic
     public String drawName() {
         return "ÐÀ/" + value();
     }
-
+//second commit to vanda branch
     @Override
     public void update(EventObject event)
     {
