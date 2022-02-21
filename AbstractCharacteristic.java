@@ -40,7 +40,7 @@ abstract public class AbstractCharacteristic implements CellCharacteristic
         {
             success = false;
         }
-        else                                    // позиция свободна
+        else                                    // позиция свободна second
         {
             position = pos;
             success = true;
