@@ -80,7 +80,7 @@ abstract public class AbstractBattery
     // ----------------------- Позиция батарейки -------------------------
 
     CellPosition _position;                             // позиция
-
+	//Получить позицию батарейки
     public CellPosition position()
     {
         // TODO исключение, если батарея уничтожена
