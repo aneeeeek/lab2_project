@@ -40,6 +40,8 @@ public class Door {
     
     public int orientation()
     {
+		int useless;
+		
         Direction direct = position().direction();
 
         if(direct.equals(Direction.south()) || direct.equals(Direction.north()))   return VERTICAL;
