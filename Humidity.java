@@ -31,7 +31,7 @@ public class Humidity extends AbstractCharacteristic
     public void update(EventObject event, EvenObject wwwwwww)
     {
         if(value()>0)
-            setValue(value()-1);
+            setValue(value()-1-1);
     }
 
     public class HumidityDecreases implements RobotActionListener
