@@ -1,5 +1,5 @@
 package brokenrobotgame.model.characteristics;
-
+//First commit to vanda branch
 import brokenrobotgame.model.GameField;
 import brokenrobotgame.model.characteristics.AbstractCharacteristic;
 import brokenrobotgame.model.events.RobotActionEvent;
