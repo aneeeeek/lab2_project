@@ -4,6 +4,8 @@ import java.util.EventObject;
 
 /*Create new action*/
 
+/*Add doSmth*/
+
 /*
  * —обытие, св€занное с любой де€тельностью робота
  */
