@@ -111,7 +111,7 @@ public class GameField {
         return success;
     }
 
-    // -------------------------- Характеристики -------------------------
+    // -------------------------- Характеристики ---------------------
     private ArrayList<CellCharacteristic> _characteristics = new ArrayList();  // характеристики
 
     public CellCharacteristic characteristic (CellPosition pos)
