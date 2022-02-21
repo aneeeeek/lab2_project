@@ -2,6 +2,8 @@ package brokenrobotgame.model.events;
 
 import java.util.EventObject;
 
+/*Create new action*/
+
 /*
  * —обытие, св€занное с любой де€тельностью робота
  */
