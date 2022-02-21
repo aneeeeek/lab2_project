@@ -22,6 +22,7 @@ public class Door {
         return _position;
     }
 
+	//Установить позицию
     boolean setPosition(MiddlePosition pos)
     {
         if(!_field.isWall(pos) && _field.door(pos)== null)      // позиция свободна
