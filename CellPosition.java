@@ -130,7 +130,7 @@ public class CellPosition
             return _row == otherPosition._row && _column == otherPosition._column;
         }
         
-        return false;
+        return false; // new comment
     }
 }
 // new comment
