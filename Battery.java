@@ -16,4 +16,9 @@ public class Battery extends AbstractBattery
 	{
 		capacity++;
 	}
+	
+	public amountUpdate()
+	{
+		amount++;
+	}
 }
