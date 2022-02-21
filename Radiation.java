@@ -33,7 +33,7 @@ public class Radiation extends AbstractCharacteristic
         if(value()>0)
         setValue(value()-1);
     }
-
+//aboba
     public class RadiationDecreases implements RobotActionListener
     {
         @Override
