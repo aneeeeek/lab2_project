@@ -11,6 +11,7 @@ import java.util.EventObject;
 
 public class Humidity extends AbstractCharacteristic
 {
+    //Humidity
     public Humidity(GameField field, int val)
     {
         super(field, val);
@@ -23,7 +24,7 @@ public class Humidity extends AbstractCharacteristic
 
     @Override
     public String drawName() {
-        return "Â/" + value();
+        return "ï¿½/" + value();
     }
 
     @Override
