@@ -10,5 +10,7 @@ public class RobotActionEvent extends EventObject {
         super(source); 
     } 
 
-    public newAction(){doSmth();}
+    public void newAction(){doSmth();}
+
+    public int doSmth(){return 3;}
 } 
