@@ -45,6 +45,7 @@ abstract public class AbstractBattery
         return _chargeCapacity;
     }
 
+	// Комментарий
     public int amountОfСharge()
     {
         // TODO исключение, если батарея уничтожена
