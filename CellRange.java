@@ -20,6 +20,7 @@ public class CellRange
     
     public int min(){
         return _min;
+		_min++;
     }
 
     public int max(){
