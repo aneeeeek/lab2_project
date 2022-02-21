@@ -30,8 +30,8 @@ abstract public class AbstractBattery
             throw new RuntimeException("ERROR: amount of charge is greater than capacity");
 
         _field = field;
-        _chargeCapacity = capacity;
-        _amountÎfÑharge = amount;
+        _chargeCapacity = capacity_1;
+        _amountÎfÑharge = amount_1;
     }
     //Óìåíüøåíèå çàğÿäà áàòàğåè
     public int chargeCapacity()
