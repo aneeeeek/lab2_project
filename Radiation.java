@@ -8,7 +8,7 @@ import brokenrobotgame.model.navigation.CellPosition;
 //vanda 1 commit main
 import java.awt.*;
 import java.util.EventObject;
-
+//this is random commit
 public class Radiation extends AbstractCharacteristic
 {
     public Radiation(GameField field, int val)
