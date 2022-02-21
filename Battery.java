@@ -11,4 +11,9 @@ public class Battery extends AbstractBattery
     {
         super(field,capacity,amount);
     }
+	
+	public capacityUpdate()
+	{
+		capacity++;
+	}
 }
