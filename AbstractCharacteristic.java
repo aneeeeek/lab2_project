@@ -21,7 +21,7 @@ abstract public class AbstractCharacteristic implements CellCharacteristic
     }
 
     @Override
-    public CellPosition position() { return position; }
+    public CellPosition position() { return position; } //made few changes
 
     @Override
     public int value() { return value; }
