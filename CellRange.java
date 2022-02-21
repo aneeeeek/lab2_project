@@ -21,7 +21,11 @@ public class CellRange
     
     public int min(){
         return _min;
+<<<<<<< HEAD
 		_min++;
+=======
+		_max++;
+>>>>>>> magomedov
     }
 
     public int max(){
