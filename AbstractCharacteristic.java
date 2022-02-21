@@ -11,7 +11,7 @@ abstract public class AbstractCharacteristic implements CellCharacteristic
 
     private CellPosition position;
 
-    public AbstractCharacteristic(GameField field, int val)
+    public AbstractCharacteristic(GameField field, int val) //Hello World
     {
         if(val<0 || val>100)
             throw new IllegalArgumentException("чел ты...");
@@ -24,7 +24,7 @@ abstract public class AbstractCharacteristic implements CellCharacteristic
     public CellPosition position() { return position; } //made few changes
 
     @Override
-    public int value() { return value; }
+    public int value() { return value; } 
 
     @Override
     public boolean setPosition(CellPosition pos)
