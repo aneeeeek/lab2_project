@@ -27,7 +27,7 @@ public class Smoke extends AbstractCharacteristic
     @Override
     public void update(EventObject event)
     {
-        if(value()>0)
+        if(value()>1)
             setValue(value()-2);
     }
 
