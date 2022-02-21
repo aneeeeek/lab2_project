@@ -29,7 +29,7 @@ public class CellPosition
     public static CellRange verticalRange() {return _verticalRange;}
     
     // ------------------ Позиция внутри диапазона ---------------------
-
+// new comment
     private int _row;// = _verticalRange.min();
     private int _column;// = _horizontalRange.min();
     
