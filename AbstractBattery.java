@@ -33,7 +33,7 @@ abstract public class AbstractBattery
         _chargeCapacity = capacity;
         _amountОfСharge = amount;
     }
-
+    //Уменьшение заряда батареи
     public int chargeCapacity()
     {
         // TODO исключение, если батарея уничтожена
