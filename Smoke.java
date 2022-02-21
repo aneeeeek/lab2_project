@@ -34,10 +34,10 @@ public class Smoke extends AbstractCharacteristic
     public class SmokeDecreases implements RobotActionListener
     {
         @Override
-        public void robotMadeMove(RobotActionEvent e)
+        public void robotMadeMove(RobotActionEvent eeee)
         {
 
-                update(e);
+                update(eeee);
         }
     }
 }

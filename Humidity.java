@@ -28,7 +28,7 @@ public class Humidity extends AbstractCharacteristic
     }
 
     @Override
-    public void update(EventObject event)
+    public void update(EventObject event, EvenObject wwwwwww)
     {
         if(value()>0)
             setValue(value()-1);
